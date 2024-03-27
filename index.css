@@ -1,0 +1,192 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+   font-family:  "DynaPuff", system-ui;
+   background-image: url("Back\ to\ the\ Future.jpg");
+}
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+a:hover{
+    background-color:  RGB(255, 127, 80);
+}
+@keyframes Ejemplo {
+    from {right: 5%;}
+    to {right: 25%;}
+  }
+
+.Main-nav{
+    position: fixed;
+    width: 100%;
+    height: 14%;
+    z-index: 2;
+    
+
+    
+}
+.Nav{
+    width: 100%;
+    height: 100%;
+    background-image: url("Back\ to\ the\ Future.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid black;
+
+}
+.Nav-section1,
+.Nav-section2,
+.Nav-section3{
+    width: 180px;
+    height: 70px;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+
+
+.Main-boddy{
+    position: absolute;
+    top: 14%;
+    right: 25%;
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+    animation-name: Ejemplo;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    
+    
+   
+}
+.Sub-main-boddy{
+    position: relative;
+    display: flex;
+    left: 25%;
+    top: 25%;
+    width: 50%;
+    height: 50%;
+    background-image:url("Back\ to\ the\ Future.jpg");
+    background-size: cover;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form-boddy{
+    display: flex;
+    position: relative;
+    left: 10%;
+}
+.Footer{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 21%;
+    bottom:  -35%;
+    
+}
+.Sub-footer{ 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    box-sizing: border-box;
+
+
+}
+.Footer-block1{
+    width:50%;
+    height: 100%;
+  
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+.Footer-block2{
+    width: 50%;
+    height: 100%;
+    
+    float:right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+.Footer-block1-contenido{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 3;
+  
+  
+    
+}
+
+.Footer-block2-contenido{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 3;
+    font-size: 12px;
+    flex-direction: column-reverse;
+    
+
+   
+    
+}
+
+.Footer-block1-contenido .Icongmail{
+    background-image: url("gmail.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    float: inline-start;
+    
+
+}
+
+.Footer-block1-contenido .Icongithub{
+    background-image: url("github.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    float: inline-start;
+    
+
+}
+
+.Footer-block1-contenido .Iconstack{
+    background-image: url("stackpng.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    float: inline-start;
+    
+
+}
+
+.Footer-a1,
+.Footer-a2,
+.Footer-a3{
+    color:black;  
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
